@@ -1,0 +1,3 @@
+"./abc.obj"
+-l"configPkg/linker.cmd"
+-llibc.a
