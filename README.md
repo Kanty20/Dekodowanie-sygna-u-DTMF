@@ -3,12 +3,12 @@ Plik README.md w projekcie jest ważnym elementem dokumentacji, który pomaga u�
 # Dekodowanie sygnału DTMF
 
 ## Spis treści 
-- [Instalacja] (#instalacja)
-- [Cel] (#cel)
-- [Wprowadzenie] (#wprowadzenie)
-- [Pierwszy etap] (#pierwszy etap)
-- [Drugi etap] (#drugi etap)
-- [Projekt] (#projekt)
+- [Instalacja](#instalacja)
+- [Cel](#cel)
+- [Wprowadzenie](#wprowadzenie)
+- [Pierwszy etap](#pierwszy_etap)
+- [Drugi etap](#drugi_etap)
+- [Projekt](#projekt)
 
 ## Instalacja
 Aby zainstalować projekt musisz go pobrać, żeby podpatrzeć kod wystarczy otworzyć sam main.c, najlepiej jednak mieć pobrany program Code Composer Studio.
