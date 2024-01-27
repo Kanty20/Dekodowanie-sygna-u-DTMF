@@ -11,7 +11,7 @@ Plik README.md w projekcie jest ważnym elementem dokumentacji, który pomaga u�
 - [Projekt](#projekt)
 
 ## Instalacja
-Aby zainstalować projekt musisz go pobrać, żeby podpatrzeć kod wystarczy otworzyć sam main.c, najlepiej jednak mieć pobrany program Code Composer Studio.
+Aby zainstalować projekt należy go pobrać, żeby podpatrzeć kod wystarczy otworzyć sam main.c, najlepiej jednak mieć pobrany program Code Composer Studio.
 
 ## Cel
 
