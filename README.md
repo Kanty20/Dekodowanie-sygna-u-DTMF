@@ -1,5 +1,7 @@
 # Dekodowanie sygnału DTMF
 
+For English scroll below
+
 ## Spis treści 
 - [Instalacja](#instalacja)
 - [Cel](#cel)
