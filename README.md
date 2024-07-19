@@ -1,17 +1,16 @@
-# Dekodowanie sygnału DTMF
-
-For English scroll below
+# Dekodowanie sygnału DTMF  /  DTMF signal decoding
 
 ## Spis treści 
-- [Instalacja](#instalacja)
-- [Cel](#cel)
-- [Wprowadzenie](#wprowadzenie)
-- [Pierwszy etap](#pierwszy_etap)
-- [Drugi etap](#drugi_etap)
-- [Projekt](#projekt)
+- [Instalacja  /  Instalation](#instalacja)
+- [Cel  /  Purpose](#cel)
+- [Wprowadzenie  /  Introduction](#wprowadzenie)
+- [Pierwszy etap  /  First Phase](#pierwszy_etap)
+- [Drugi etap  /  Second Phase](#drugi_etap)
+- [Projekt  /  Project](#projekt)
 
-## Instalacja
-Aby zainstalować projekt należy go pobrać, żeby podpatrzeć kod wystarczy otworzyć sam main.c, najlepiej jednak mieć pobrany program Code Composer Studio.
+## Instalacja  /  Instalation
+Aby zainstalować projekt należy go pobrać, żeby podpatrzeć kod wystarczy otworzyć sam main.c, najlepiej jednak mieć pobrany program Code Composer Studio.<br>
+To install the project you need to download it, to preview the code just open main.c itself, but it is best to have Code Composer Studio downloaded.
 
 ## Cel
 
