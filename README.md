@@ -1,5 +1,3 @@
-Plik README.md w projekcie jest ważnym elementem dokumentacji, który pomaga użytkownikom zrozumieć, jak korzystać z projektu.
-
 # Dekodowanie sygnału DTMF
 
 ## Spis treści 
