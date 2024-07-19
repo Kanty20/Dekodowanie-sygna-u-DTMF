@@ -22,17 +22,23 @@ The purpose of the “Signal Spectrum Analysis with Graphical Visualization” e
 
 The purpose of the “DTMF signal decoding” exercise is to further process the obtained spectrum in order to obtain application-specific information - in this case, to detect the correct DTMF signal in the signal and decode it. The purpose of the application itself, therefore, is not to plot the calculated spectrum of the signal (however, they are useful at the application startup stage), but only the DTMF character code placed in a variable of char type.
 
-## Wprowadzenie
+## Wprowadzenie  /  Introduction
 
 Należy zwrócić uwagę na następujące kwestie szczegółowe- Sygnał DTMF (Dual Tone Multi-Frequency) jest sumą dwóch sinusoid – jednej z grupy Low Frequency, a drugiej z grupy High Frequency:
+
+Note the following details- The DTMF (Dual Tone Multi-Frequency) signal is the sum of two sinusoids - one from the Low Frequency group and the other from the High Frequency group:
 
 ![image](https://github.com/Kanty20/Dekodowanie-sygna-u-DTMF/assets/62101090/5d675904-0d6d-4494-aa72-e9b582cc5f86)
 
 W celu odsłuchania przykładowego sygnału dtmf, po wpisaniu w wyszukiwarce internetowej hasła „dtmf online generator” i wybraniu np. znalezionej strony internetowej https://onlinetonegenerator.com/dtmf.html, pojawi się możliwość generacji sygnału na głośniczku (w słuchawkach) przez wciśnięcie odpowiedniego przycisku na klawiaturze:
 
+In order to listen to a sample dtmf signal, after typing “dtmf online generator” in the search engine and selecting, for example, the found website https://onlinetonegenerator.com/dtmf.html, you will be able to generate a signal on the speaker (in headphones) by pressing the corresponding button on the keyboard:
+
 ![image](https://github.com/Kanty20/Dekodowanie-sygna-u-DTMF/assets/62101090/064c5528-ff4c-4ebd-ab24-7778029dd1c2)
 
 W systemie Android, do generacji sygnału dtmf można pobrać jedną z wielu darmowych aplikacji ze sklepu Play, np. „Simple DTMF”.Sygnał DTMF z wyjścia karty dźwiękowej komputera PC łączy się kablem z wtykami typu jack 3,5mm (są na wyposażeniu laboratorium, dostępne u prowadzącego) do wejścia przetwornika A/C na module BB AI. Należy przy tym koniecznie odłączyć od modułu kabel BNC łączący wejście modułu z używanym wcześniej generatorem. Generowany sygnał DTMF należy kontrolować na ekranie oscyloskopu w celu zapewnienia nieprzesterowania przetwornika A/C, którego zakres pracy wynosi ok. ± 1,5 V. Zaleca się nieprzekraczanie połowy zakresu pracy przetwornika A/C.
+
+On Android, for dtmf signal generation you can download one of the many free applications from the Play store, such as “Simple DTMF”.The DTMF signal from the output of the PC sound card is connected via a cable with 3.5mm jack connectors (they are on the lab equipment, available from the instructor) to the input of the A/D converter on the BB AI module. When doing so, it is essential to disconnect from the module the BNC cable connecting the module input to the generator used earlier. The generated DTMF signal should be monitored on the oscilloscope screen to ensure that the A/D converter, whose operating range is about ± 1.5 V, is not overdriven. It is recommended not to exceed half of the working range of the A/D converter.
 
 ## Pierwszy etap
 
