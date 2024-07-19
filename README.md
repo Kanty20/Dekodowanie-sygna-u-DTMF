@@ -12,11 +12,15 @@
 Aby zainstalować projekt należy go pobrać, żeby podpatrzeć kod wystarczy otworzyć sam main.c, najlepiej jednak mieć pobrany program Code Composer Studio.<br>
 To install the project you need to download it, to preview the code just open main.c itself, but it is best to have Code Composer Studio downloaded.
 
-## Cel
+## Cel  /  Purpose
 
 Celem ćwiczenia „Analiza widma sygnału z graficzną wizualizacją” było przygotowanie i uruchomienie aplikacji w środowisku Code Composer Studio (CCS), której efektem było obliczanie widma sygnału z zastosowaniem metody okien czasowych, algorytmu FFT oraz z użyciem techniki uzupełniania zerami. Ćwiczenie kończyło się wyświetlaniem widma sygnału przy różnych założeniach szczegółowych, takich jak: typ okna czasowego, uzupełnianie zerami, skala liniowa lub logarytmiczna osi y, włączone lub wyłączone autoskalowanie osi y, skala unormowana osi x (numer próbki, numer prążka) lub skala jednostek bezwzględnym osi x (s, ms, Hz).
 
-Celem ćwiczenia „Dekodowanie sygnału DTMF” jest dalsze przetwarzanie uzyskanego widma w celu uzyskania informacji szczegółowej dla danego zastosowania – w tym przypadku w celu wykrycia w sygnale prawidłowego sygnału DTMF i jego zdekodowania. Celem pracy samej aplikacji nie są więc wykresy obliczonego widma sygnału (są one jednak przydatne na etapie uruchamiania aplikacji), a jedynie kod znaku DTMF umieszczony w zmiennej typu char
+Celem ćwiczenia „Dekodowanie sygnału DTMF” jest dalsze przetwarzanie uzyskanego widma w celu uzyskania informacji szczegółowej dla danego zastosowania – w tym przypadku w celu wykrycia w sygnale prawidłowego sygnału DTMF i jego zdekodowania. Celem pracy samej aplikacji nie są więc wykresy obliczonego widma sygnału (są one jednak przydatne na etapie uruchamiania aplikacji), a jedynie kod znaku DTMF umieszczony w zmiennej typu char.
+
+The purpose of the “Signal Spectrum Analysis with Graphical Visualization” exercise was to prepare and run an application in the Code Composer Studio (CCS) environment, which resulted in the calculation of a signal spectrum using the time window method, the FFT algorithm and using the zero-complement technique. The exercise culminated in the display of the signal spectrum under various specific assumptions, such as the type of time window, zero-complementation, y-axis linear or logarithmic scale, y-axis autoscaling enabled or disabled, x-axis normalized scale (sample number, bar number) or x-axis absolute unit scale (s, ms, Hz).
+
+The purpose of the “DTMF signal decoding” exercise is to further process the obtained spectrum in order to obtain application-specific information - in this case, to detect the correct DTMF signal in the signal and decode it. The purpose of the application itself, therefore, is not to plot the calculated spectrum of the signal (however, they are useful at the application startup stage), but only the DTMF character code placed in a variable of char type.
 
 ## Wprowadzenie
 
